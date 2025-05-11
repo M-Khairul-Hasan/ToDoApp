@@ -1,0 +1,60 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242323;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-form input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+.create-form button {
+  padding: 10px 20px;
+  background-color: #2a8fa8;
+  color: white;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  width: 375px;
+  justify-content: space-between;
+  background-color: azure;
+  height: 35px;
+  color: black;
+  padding: 2px 5px 2px 5px;
+  margin-top: 5px;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+.checkbox .icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div .icon {
+  margin: 0px 5px 0px 4px;
+}
+.checkbox p {
+  margin-left: 3px;
+}
+.task div .icon {
+  cursor: pointer;
+}
+.line-thr {
+  text-decoration: line-through;
+}
